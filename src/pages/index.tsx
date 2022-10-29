@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { MutableRefObject, useEffect, useRef } from "react";
+import { useRef } from "react";
 import About from "../components/About";
 import Contact from "../components/Contact";
 import Education from "../components/Education";
