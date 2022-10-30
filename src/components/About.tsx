@@ -27,7 +27,7 @@ const About = () => {
             </h1>
           </div>
           <div className="flex flex-row">
-            <div className="h-full w-[0.1rem] bg-gradient-to-b from-[#3a349e] via-[#2c7c8c] to-[#09793f] xl:w-1"></div>
+            <div className="h-full w-[0.1rem] bg-gradient-to-b xl:w-1"></div>
             <div className="ml-2 flex flex-col">
               <span className="w-full p-1 text-left text-[0.5rem] sm:text-[0.8rem] lg:text-xl">
                 I&apos;m Chong Yih, a Computer Engineering student in Nanyang
@@ -35,8 +35,8 @@ const About = () => {
               </span>
               <span className="w-full p-1 text-left text-[0.5rem] sm:text-[0.8rem] lg:text-xl">
                 I&apos;ve developed an interest in web development ever since my
-                intern in mid 2022! <br></br>I&apos;m excited to explore new
-                technologies and improve my skill set in this vast space.
+                internship in mid 2022! <br></br>I&apos;m excited to explore new
+                technologies and broaden my skill set in this vast space.
               </span>
             </div>
           </div>
@@ -48,9 +48,7 @@ const About = () => {
                 ?.scrollIntoView({ behavior: "smooth" })
             }
           >
-            <span className="bg-gradient-to-r from-[#3a349e] via-[#2c7c8c] to-[#09793f] bg-clip-text font-bold text-transparent lg:text-2xl">
-              Contact Me
-            </span>
+            <span className="text-gradient lg:text-2xl">Contact Me</span>
           </button>
         </div>
         <div className="absolute -bottom-2 right-0 hidden sm:block">

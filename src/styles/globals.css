@@ -12,6 +12,40 @@
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
   }
+
+  .bg-gradient-to-b {
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+    --tw-gradient-from: #3a349e;
+    --tw-gradient-stops: var(--tw-gradient-from), #2c7c8c, var(--tw-gradient-to);
+    --tw-gradient-to: #09793f;
+  }
+
+  .bg-gradient-to-r {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-gradient-from: #3a349e;
+    --tw-gradient-stops: var(--tw-gradient-from), #2c7c8c, var(--tw-gradient-to);
+    --tw-gradient-to: #09793f;
+  }
+
+  .text-gradient-to-r {
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-gradient-from: #3a349e;
+    --tw-gradient-stops: var(--tw-gradient-from), #2c7c8c, var(--tw-gradient-to);
+    --tw-gradient-to: #09793f;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .text-gradient-to-l {
+    background-image: linear-gradient(to left, var(--tw-gradient-stops));
+    --tw-gradient-from: #3a349e;
+    --tw-gradient-stops: var(--tw-gradient-from), #2c7c8c, var(--tw-gradient-to);
+    --tw-gradient-to: #09793f;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
 }
 
 @layer base {

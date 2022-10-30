@@ -52,29 +52,9 @@ const Home: NextPage = () => {
           name="description"
           content="Aspiring developer from Singapore looking to explore new technologies."
         />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="true"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
-          rel="stylesheet"
-        />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="true"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap"
-          rel="stylesheet"
-        />
       </Head>
 
-      <main className="no-scrollbar h-screen w-screen snap-y snap-mandatory overflow-y-scroll bg-zinc-800">
+      <main className="no-scrollbar h-screen w-screen snap-y snap-mandatory overflow-y-scroll bg-slate-300">
         <NavList components={componentsToRender} ref={refs} />
         {componentsToRender.map((component, index) => {
           return (
@@ -82,7 +62,11 @@ const Home: NextPage = () => {
               key={component.id}
               ref={(ref) => ref && (refs.current[index] = ref)}
               id={component.id}
-              className="h-screen snap-start snap-always"
+              className={`snap-start ${
+                component.id === "contact"
+                  ? "min-h-screen snap-always sm:snap-none lg:h-screen"
+                  : "h-screen snap-always"
+              }`}
             >
               {component.element}
             </section>

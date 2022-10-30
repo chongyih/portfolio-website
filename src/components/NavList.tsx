@@ -22,8 +22,8 @@ const NavList = forwardRef<Ref, Props>((props, refs: any) => {
               <button
                 className={`transition duration-200 ${
                   isIntersecting[index]
-                    ? "h-4 w-4 border-2 bg-transparent"
-                    : "h-3 w-3 rotate-45 bg-black"
+                    ? "h-4 w-4 border-2 border-[#2c7c8c] bg-transparent"
+                    : "h-3 w-3 rotate-45 bg-[#2c7c8c]"
                 }`}
                 onClick={() =>
                   refs?.current[index].scrollIntoView({ behavior: "smooth" })
