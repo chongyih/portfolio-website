@@ -30,11 +30,11 @@ const About = () => {
             <div className="h-full w-[0.1rem] bg-gradient-to-b from-[#3a349e] via-[#2c7c8c] to-[#09793f] xl:w-1"></div>
             <div className="ml-2 flex flex-col">
               <span className="w-full p-1 text-left font-serif text-[0.4rem] sm:text-[0.6rem] lg:text-lg">
-                I'm currently studying Computer Engineering at Nanyang
+                I&apos;m currently studying Computer Engineering at Nanyang
                 Technological University.
               </span>
               <span className="w-full p-1 text-left font-serif text-[0.4rem] sm:text-[0.6rem] lg:text-lg">
-                I've developed an interest in web development ever since my
+                I&apos;ve developed an interest in web development ever since my
                 intern in mid 2022!
               </span>
             </div>

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { forwardRef } from "react";
 import useOnScreen from "../hooks/useOnScreen";
 import { ComponentsI } from "../pages";
