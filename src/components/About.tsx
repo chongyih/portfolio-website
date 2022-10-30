@@ -22,20 +22,21 @@ const About = () => {
               alt="hand"
               className="animate-swing overflow-visible"
             />
-            <h1 className="p-5 font-mono text-xl font-bold sm:text-3xl  lg:text-5xl">
+            <h1 className="p-5 font-title text-3xl font-bold sm:text-5xl  lg:text-7xl">
               Hi there!
             </h1>
           </div>
           <div className="flex flex-row">
             <div className="h-full w-[0.1rem] bg-gradient-to-b from-[#3a349e] via-[#2c7c8c] to-[#09793f] xl:w-1"></div>
             <div className="ml-2 flex flex-col">
-              <span className="w-full p-1 text-left font-serif text-[0.4rem] sm:text-[0.6rem] lg:text-lg">
-                I&apos;m currently studying Computer Engineering at Nanyang
+              <span className="w-full p-1 text-left text-[0.5rem] sm:text-[0.8rem] lg:text-xl">
+                I&apos;m Chong Yih, a Computer Engineering student in Nanyang
                 Technological University.
               </span>
-              <span className="w-full p-1 text-left font-serif text-[0.4rem] sm:text-[0.6rem] lg:text-lg">
+              <span className="w-full p-1 text-left text-[0.5rem] sm:text-[0.8rem] lg:text-xl">
                 I&apos;ve developed an interest in web development ever since my
-                intern in mid 2022!
+                intern in mid 2022! <br></br>I&apos;m excited to explore new
+                technologies and improve my skill set in this vast space.
               </span>
             </div>
           </div>
@@ -47,7 +48,7 @@ const About = () => {
                 ?.scrollIntoView({ behavior: "smooth" })
             }
           >
-            <span className="bg-gradient-to-r from-[#3a349e] via-[#2c7c8c] to-[#09793f] bg-clip-text font-bold text-transparent">
+            <span className="bg-gradient-to-r from-[#3a349e] via-[#2c7c8c] to-[#09793f] bg-clip-text font-bold text-transparent lg:text-2xl">
               Contact Me
             </span>
           </button>

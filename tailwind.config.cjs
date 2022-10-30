@@ -2,6 +2,10 @@
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    fontFamily: {
+        'title': ['Great Vibes', 'cursive'],
+        'body': ['Cormorant Garamond', 'serif']
+    },
     extend: {
       'animation': {
           'gradient-x':'gradient-x 12s ease infinite',
