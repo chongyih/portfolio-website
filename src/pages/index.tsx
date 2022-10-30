@@ -39,7 +39,7 @@ const Home: NextPage = () => {
       element: <Skills />,
     },
     {
-      id: "contacts",
+      id: "contact",
       element: <Contact />,
     },
   ];
